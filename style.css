@@ -1,0 +1,71 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    min-height: 200px;
+    background-color: blue;
+    display: flex; 
+    justify-content: center;  
+}
+.header{
+    border: 10px;    
+    padding: 10px;
+    display: flex;
+    background-color:darkgray;
+}
+.header2{
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    justify-content: flex-start;
+    background-color: lightgray;
+    align-items: center;
+}
+.header2 > div{
+    /*background-color: blueviolet;*/
+    justify-content: center;
+    margin: 10px;
+    
+}
+li {
+float: left;
+padding: 20px;
+font-weight: bold;
+}
+section{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.parrafo{
+    display: flex;
+    justify-content: space-around;
+    float:left;
+    width: 45%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cuadroContacto{
+    display:flex;
+    margin-top: 6px;
+    /*justify-content: center;*/
+    align-items: center;
+    background-color: darkgray;
+    width: 95%;
+    height: 95%;
+    margin-left: 0;
+    flex-direction: column;
+    line-height: 30px;
+}
+.mainContacto {
+    display:flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    width: 62%;
+    height: 550px;
+    margin-left: 18%;
+   
+}
